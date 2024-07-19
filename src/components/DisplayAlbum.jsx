@@ -4,7 +4,8 @@ import { useParams } from 'react-router-dom'
 
 const DisplayAlbum = () => {
 
-    const {id}= useParams()
+    const {id}= useParams();
+    console.log(id)
 
 
   return (
